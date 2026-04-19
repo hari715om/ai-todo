@@ -1,0 +1,86 @@
+# ── Python / Backend ─────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env_backup
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# SQLite database (local only — never commit)
+*.db
+*.sqlite
+*.sqlite3
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+
+# ── Environment files ────────────────────────────────────────
+# NEVER commit secrets
+.env
+.env.local
+.env.production
+.env.staging
+
+# Keep the example templates
+!.env.example
+!.env.local.example
+
+# ── Next.js / Frontend ──────────────────────────────────────
+node_modules/
+.next/
+out/
+.cache/
+.turbo/
+
+# Build output
+frontend/dist/
+frontend/build/
+
+# Vercel
+.vercel/
+
+# ── OS / Editor ──────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ── Logs ─────────────────────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ── Misc ─────────────────────────────────────────────────────
+*.pem
+.eslintcache
+
+ARCHITECTURE.md
+DEPLOY.md
